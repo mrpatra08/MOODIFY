@@ -1,0 +1,141 @@
+[
+    {
+        "id":1,
+        "Name":"Live Another Day ",
+        "Type":"Energetic",
+        "AuthorName":"KORDHELL",
+        "Img":"/music/Song icon/energetic/energetic1.jpeg",
+        "audioName":"/music/Song/Energetic/KORDHELL-Live Another Day.mp3"
+    },
+    {
+        "id":2,
+        "Name":"METAMORPHISIS",
+        "Type":"Energetic",
+        "AuthorName":"INTERWORLD",
+        "Img":"/music/Song icon/energetic/energetic2.jpeg",
+        "audioName":"/music/Song/Energetic/INTERWORLD-METAMORPHOSOIS.mp3"
+    },
+    {
+        "id":3,
+        "Name":"MURDER IN MY MIND",
+        "Type":"Energetic",
+        "AuthorName":"KORDHELL",
+        "Img":"/music/Song icon/energetic/energetic3.jpg",
+        "audioName":"/music/Song/Energetic/KORDHELL-MURDER IN MY MIND.mp3"
+    },
+    {
+        "id":4,
+        "Name":"Phonky Town",
+        "Type":"Energetic",
+        "AuthorName":"PlayaPhonk",
+        "Img":"/music/Song icon/energetic/energetic4.jpeg",
+        "audioName":"/music/Song/Energetic/KORDHELL-Live Another Day.mp3"
+    },
+    
+    {
+        "id":5,
+        "Name":"DANCIN(KRONO REMIX)",
+        "Type":"Happy",
+        "AuthorName":"Aaron Smith",
+        "Img":"/music/Song icon/Happy/happy1.jpeg",
+        "audioName":"/music/Song/Happy/Aaron Smith-DANCIN(KRONO Remix)-Lyrics.mp3"
+    },
+    {
+        "id":6,
+        "Name":"Don't Copy My Flow",
+        "Type":"Happy",
+        "AuthorName":"Mwizz",
+        "Img":"/music/Song icon/Happy/happy2.jpeg",
+        "audioName":"/music/Songs/Happy/Don t Copy My Flow - фрози (frozy), Mwizz, George Kipa (Letra_Lyrics).mp3"
+    },
+    {
+        "id":7,
+        "Name":"I Ain't Worried",
+        "Type":"Happy",
+        "AuthorName":"One Republic ",
+        "Img":"/music/Song icon/Happy/happy3.jpg",
+        "audioName":"/music/Songs/Happy/OneRepublic - I Ain t Worried (Lyrics).mp3"
+    },
+    {
+        "id":8,
+        "Name":"Cheap Thrills",
+        "Type":"Happy",
+        "AuthorName":"Sia",
+        "Img":"/music/Song icon/Happy/happy4.jpeg",
+        "audioName":"/music/Songs/Happy/Sia - Cheap Thrills (Lyrics) ft. Sean Paul.mp3"
+    },
+    {
+        "id":9,
+        "Name":"Duvet",
+        "Type":"Neutral",
+        "AuthorName":"Boa",
+        "Img":"/music/Song icon/neutral/neutral1.jpeg",
+        "audioName":"/music/Songs/Neutral/Bôa - Duvet (Lyrics).mp3"
+    },
+    {
+        "id":10,
+        "Name":"Tek it ",
+        "Type":"Neutral",
+        "Img":"/music/Song icon/neutral/neutral2.jpeg",
+        "AuthorName":"Cafune",
+        "audioName":"/music/Songs/Neutral/Cafuné - Tek It (I Watch The Moon) [Official Video].mp3"
+    },
+    {
+        "id":11,
+        "Name":"The Cranberries",
+        "Type":"Neutral",
+        "Img":"/music/Song icon/neutral/neutral3.jpeg",
+        "AuthorName":"Dreams",
+        "audioName":"/music/Songs/Neutral/Dreams - The Cranberries Lyrics.mp3"
+    },
+    {
+        "id":12,
+        "Name":"Bloom",
+        "Type":"Neutral",
+        "Img":"/music/Song icon/neutral/neutral4.jpeg",
+        "AuthorName":"The Paper Kites",
+        "audioName":"/music/Songs/Neutral/The Paper Kites - Bloom (Official Music Video).mp3"
+    },
+    {
+        "id":13,
+        "Name":"Fix You",
+        "Type":"Sad",
+        "Img":"/music/Song icon/sad/sad1.jpeg",
+        "AuthorName":"@coldplay",
+        "audioName":"/music/Songs/Sad/@coldplay - Fix You (Lyrics).mp3"
+    },
+    {
+        "id":14,
+        "Name":"Skinny Love",
+        "Type":"Sad",
+        "Img":"/music/Song icon/sad/sad2.jpg",
+        "AuthorName":"Birdy",
+        "audioName":"/music/Songs/Sad/Birdy - Skinny Love Lyrics (HQ).mp3"
+    },
+    {
+        "id":15,
+        "Name":"get you to the moon",
+        "Type":"Sad",
+        "Img":"/music/Song icon/sad/sad3.jpeg",
+        "AuthorName":"Kina",
+        "audioName":"/music/Songs/Sad/Kina - get you the moon (Lyrics) ft. Snow.mp3"
+    },
+    {
+        "id":16,
+        "Name":"Someone You Loved",
+        "Type":"Sad",
+        "Img":"/music/Song icon/sad/sad4.jpeg",
+        "AuthorName":"Lewis Capaldi",
+        "audioName":"/music/Songs/Sad/Lewis Capaldi - Someone You Loved (Lyrics).mp3"
+    },
+    {
+        "id":16,
+        "Name":"Never Ever",
+        "Type":"Sad",
+        "Img":"/music/Song icon/sad/sad5.jpeg",
+        "AuthorName":"All Saints",
+        "audioName":"/music/Songs/Sad/Never Ever - All Saints (Lyrics).mp3"
+    }
+
+
+]

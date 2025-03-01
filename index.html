@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <!--linking bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music Player Platform | AsmrProg</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo">
+                <button class="menu-btn" id="menu-close">
+                    <i class='bx bx-log-out-circle'></i>
+                </button>
+                <i class='bx bx-pulse'></i>
+                <a href="#">MOODIFY</a>
+            </div>
+            <div class="menu">
+                <h5>Menu</h5>
+                <ul>
+                    <li>
+                        <i class='bx bxs-bolt-circle'></i>
+                        <a href="#">Explore</a>
+                    </li>
+                    <li>
+                        <i class='bx bxs-volume-full'></i>
+                        <a href="#">Genres</a>
+                    </li>
+                    <li>
+                        <i class='bx bxs-album'></i>
+                        <a href="#">Albums</a>
+                    </li>
+                    <li>
+                        <i class='bx bxs-microphone'></i>
+                        <a href="#">Artists</a>
+                    </li>
+                    <li>
+                        <i class='bx bxs-radio'></i>
+                        <a href="#">Poddcasts</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="menu">
+                <h5>Library</h5>
+                <ul>
+                    <li>
+                        <i class='bx bx-undo'></i>
+                        <a href="#">Recent</a>
+                    </li>
+                    <li>
+                        <i class='bx bxs-photo-album'></i>
+                        <a href="#">Albums</a>
+                    </li>
+                    <li>
+                        <i class='bx bxs-heart'></i>
+                        <a href="#">Favourites</a>
+                    </li>
+                    <li>
+                        <i class='bx bxs-folder'></i>
+                        <a href="#">Local</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="menu">
+                <h5>Playlist</h5>
+                <ul>
+                    <li>
+                        <i class='bx bxs-plus-square'></i>
+                        <a href="#">Create New</a>
+                    </li>
+                    <li>
+                        <i class='bx bxs-caret-right-circle'></i>
+                        <a href="#">Best of 2024</a>
+                    </li>
+                    <li>
+                        <i class='bx bxs-caret-right-circle'></i>
+                        <a href="#">Best of 2023</a>
+                    </li>
+                    <li>
+                        <i class='bx bxs-caret-right-circle'></i>
+                        <a href="#">Kael Fischer</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="playing">
+                <div class="top">
+                    <img src="assets/current.png">
+                    <h4>Apple<br>Homepod</h4>
+                </div>
+                <div class="bottom">
+                    <i class='bx bx-podcast'></i>
+                    <p>Playing On Device</p>
+                </div>
+            </div>
+
+
+        </aside>
+
+        <main>
+            <header>
+                <div class="nav-links">
+                    <button class="menu-btn" id="menu-open">
+                        <i class='bx bx-menu'></i>
+                    </button>
+                    <a href="#">Music</a>
+                    <a href="#">Live</a>
+                    <a href="#">Podcast</a>
+                </div>
+
+                <div class="search">
+                    <i class='bx bx-search'></i>
+                    <input type="text" placeholder="Type here to search">
+                </div>
+
+            </header>
+
+
+            <div class="trending">
+                <div class="left">
+                    <h5>Trending New Song</h5>
+                    <div class="info">
+                        <h2>Lost Emotions</h2>
+                        <h4>Rion Clarke</h4>
+                        <h5>63 Million Plays</h5>
+                        <div class="buttons">
+                            <button>Listen Now</button>
+                            <i class='bx bxs-heart'></i>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/trend.png">
+            </div>
+
+            <div class="playlist">
+                <div class="genres">
+                    <div class="header">
+                        <h5>Genres</h5>
+                        <a href="#">See all</a>
+                    </div>
+
+                    <div class="items">
+                        <div class="item">
+                            <p>Electro<br>Pop</p>
+                        </div>
+                        <div class="item">
+                            <p>Dance<br>Beeat</p>
+                        </div>
+                        <div class="item">
+                            <p>Clubhouse<br>Remix</p>
+                        </div>
+                        <div class="item">
+                            <p>Hip Hop<br>Rap</p>
+                        </div>
+                        <div class="item">
+                            <p>Alternative<br>Indie</p>
+                        </div>
+                        <div class="item">
+                            <p>Classical<br>Period</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- music list in middle -->
+
+                <div class="music-list">
+                    <div class="header">
+                        <h5>Top Songs</h5>
+                        <a href="#">See all</a>
+                    </div>
+
+                    <div class="items">
+                        
+                        <div class="item">
+                            <div class="info">
+                                <p>01</p>
+                                <img src="music/Song icon/Happy/happy4.jpeg">
+                                <div class="details">
+                                    <h5>Dancin</h5>
+                                    <p>Aaron Smith</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <p>03:45</p>
+                                <div class="icon">
+                                    <i class='bx bxs-right-arrow'></i>
+                                </div>
+                                <i class='bx bxs-plus-square'></i>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <p>02</p>
+                                <img src="music/Song icon/neutral/neutral4.jpeg">
+                                <div class="details">
+                                    <h5>Duvet</h5>
+                                    <p>Boa</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <p>04:35</p>
+                                <div class="icon">
+                                    <i class='bx bxs-right-arrow'></i>
+                                </div>
+                                <i class='bx bxs-plus-square'></i>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <p>03</p>
+                                <img src="music/Song icon/sad/sad5.jpeg">
+                                <div class="details">
+                                    <h5>Fix you</h5>
+                                    <p>Coldplay</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <p>04:22</p>
+                                <div class="icon">
+                                    <i class='bx bxs-right-arrow'></i>
+                                </div>
+                                <i class='bx bxs-plus-square'></i>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="info">
+                                <p>04</p>
+                                <img src="music/Song icon/energetic/energetic4.jpeg">
+                                <div class="details">
+                                    <h5>Metamorphosis</h5>
+                                    <p>Interworld</p>
+                                </div>
+                            </div>
+                            <div class="actions">
+                                <p>03:17</p>
+                                <div class="icon">
+                                    <i class='bx bxs-right-arrow'></i>
+                                </div>
+                                <i class='bx bxs-plus-square'></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </main>
+
+        <!-- right side -->
+        <div class="right-section">
+
+            <div class="profile">
+
+
+                <div class="mood_suggestion">
+                    <button id="mood_suggestion_music">
+                        <i class="bi bi-stars"></i>
+                        <h6>Mood Assistent</h6>
+                    </button>
+                    <div class="mood_suggestion_opt">
+                            <div class="mood_suggestion_opts" id="opt1">
+                                <img src="assets/manual.png" alt="manual">
+                                <h4>Manual Selection</h4>
+                                <h6>Choose your mood manually</h6>
+                            </div>
+                            <div class="mood_suggestion_opts" id="opt2">
+                                <img src="assets/context.png" alt="manual">
+                                <h4>Context Analysis</h4>
+                                <h6>Based on time,weather,text & history </h6>
+                            </div>
+                            <div class="mood_suggestion_opts" id="opt3">
+                                <img src="assets/camra.png" alt="manual">
+                                <h4>Face Detection</h4>
+                                <h6>Analyze your mood via selfie & video</h6>
+                            </div>
+                    </div>
+
+                    <!-- now manual analysis -->
+                    <div class="manual">
+                        <h2>How do you feel today ?</h2>
+                        <div class="buttons">
+                            <button class="btn" id="happy">Happy <img src="assets/happy.png" alt=""></button>
+                            <button class="btn" id="sad">Sad <img src="assets/sad.png" alt=""></button>
+                            <button class="btn" id="neutral">Neutral <img src="assets/neutral.png" alt=""></button>
+                            <button class="btn" id="energetic">Energetic <img src="assets/energetic.png" alt=""></button>
+                        </div> <hr>
+
+                        <h4>Suggested for you !</h4>
+
+                        <div class="music_list">
+                            <!-- <div class="music">
+                                <div class="info">
+                                    <p>01</p>
+                                    <img src="music/Song icon/neutral/neutral4.jpeg">
+                                    <div class="details">
+                                        <h5>Duvet</h5>
+                                        <p>Boa</p>
+                                    </div>
+                                </div>
+                                <div class="actions">
+                                    <p>04:35</p>
+                                    <div class="icon">
+                                        <i class='bx bxs-right-arrow'></i>
+                                    </div>
+                                    <i class='bx bxs-plus-square'></i>
+                                </div>
+                            </div><hr> -->
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+
+                <!-- profile -->
+                <i class='bx bxs-bell'></i>
+                <i class='bx bxs-cog'></i>
+                <div class="user">
+                    <div class="left">
+                        <img src="assets/profile.png">
+                    </div>
+                    <div class="right">
+                        <h5>Syntax</h5>
+                    </div>
+                </div>
+            </div>
+
+            <!--Music-Player-->
+
+            <div class="music-player">
+                <div class="top-section">
+                    <div class="header">
+                        <h5>Player</h5>
+                        <i class='bx bxs-playlist'></i>
+                    </div>
+                    <div class="song-info">
+                        <img src="/music/Song icon/neutral/neutral3.jpeg">
+                        <div class="description">
+                            <h3>Duvet</h3>
+                            <h5>Boa</h5>
+                            <p>Best of 2024</p>
+                        </div>
+                        <div class="audio">
+                            <audio id="song">
+                                <source src="/music/Songs/Neutral/Bôa - Duvet (Lyrics).mp3">
+                            </audio>
+                            <input type="range" value="0" id="progress">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-actions">
+                    <div class="buttons">
+                        <i class='bx bx-repeat'></i>
+                        <i class='bx bx-first-page'></i>
+                        <div onclick="playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                        <i class='bx bx-last-page'></i>
+                        <i class='bx bx-transfer-alt'></i>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
